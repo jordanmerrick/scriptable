@@ -1,6 +1,6 @@
 // Tesla Climate Status
 // By Jordan Merrick
-// jordanmerrick.com
+// https://github.com/jordanmerrick/scriptable
 
 // Use the Tesla Scriptable Widget shortcut to get your access token and car ID
 const accessToken = ''
