@@ -36,13 +36,13 @@ Displays the open or closed status of the trunk and frunk.
 
 ## Installation
 
-I've previously created a set of shortcuts for the Shortcuts iOS app that generates the necessary token information using your login credentials and retrieves the ID of your Tesla. Token information is saved to iCloud Drive and if you have multiple Teslas associated with your account, you can select which ID to retrieve. 
+Use the following shortcuts for the Shortcuts iOS app to generate the necessary token information using your login credentials and retrieve the ID of your Tesla. If you have multiple Teslas associated with your account, you can select which ID to retrieve.
 
-You'll need to download and install the following:
+- [Scriptable Widgets for Tesla](https://www.icloud.com/shortcuts/37b6bfd5d6b94cf2b7e1e0e938ff9c89)
+- [Tesla Settings](https://www.icloud.com/shortcuts/71a2986e51e8455c8a6266c053c80174)
+- [Tesla Car Select](https://www.icloud.com/shortcuts/f257a5e6d75f456b91af850014e7f2c6)
 
-- Scriptable Widgets for Tesla
-- Tesla Settings
-- Tesla Car Select 
+The shortcuts to generate tokens and get Tesla IDs were created as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
 
 All three shortcuts are needed although you only need to run the Scriptable Widgets for Tesla shortcut. 
 
