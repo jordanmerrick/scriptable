@@ -8,6 +8,8 @@ A set of four scripts to use as widgets that provide at-a-glance information abo
 
 These scripts use Tesla’s (unofficial) API to get information about your car. An *access token* is required for authentication when making these API requests, along with a specific car’s ID. The token is initially generated using your Tesla login credentials. 
 
+Scriptable updates widgets automatically in the background. The frequency of updates is handled by iOS and there's no control over when this occurs. Every time a widget updates it has to wake the car from sleep. While this won't significantly impact the battery, keep this in mind if you have concerns about [vampire drain](https://tesla-info.com/blog/vampire-battery-drain.php).
+
 ### Getting an access token and car ID
 
 The following shortcuts for the Shortcuts iOS app are used to generate an access token using your login credentials and to get the ID of your Tesla.
