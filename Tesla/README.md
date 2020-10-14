@@ -10,17 +10,15 @@ These scripts use Tesla’s (unofficial) API to get information about your car. 
 
 ### Getting an access token and car ID
 
-Use the following shortcuts for the Shortcuts iOS app to generate the necessary token information using your login credentials and retrieve the ID of your Tesla. If you have multiple Teslas associated with your account, you can select which ID to retrieve.
+The following shortcuts for the Shortcuts iOS app are used to generate an access token using your login credentials and to get the ID of your Tesla.
 
 - [Scriptable Widgets for Tesla](https://www.icloud.com/shortcuts/37b6bfd5d6b94cf2b7e1e0e938ff9c89)
 - [Tesla Settings](https://www.icloud.com/shortcuts/71a2986e51e8455c8a6266c053c80174)
 - [Tesla Car Select](https://www.icloud.com/shortcuts/f257a5e6d75f456b91af850014e7f2c6)
 
-The shortcuts to generate tokens and get Tesla IDs were created as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
+All three shortcuts must be installed but you only need to run the **Scriptable Widgets for Tesla** shortcut (the other two are run within the shortcut). I created these shortcuts as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
 
-All three shortcuts are needed although you only need to run the Scriptable Widgets for Tesla shortcut. 
-
-On its first run, the Tesla Settings shortcut prompts for your Tesla login credentials so it can create the access token for your account. **Your password is not saved at any point and is only used to create the token with Tesla’s API**. The shortcut then gets the ID of your Tesla. If you have more than one Tesla associated with your account, the Tesla Car Select shortcut displays a list to select from.
+On its first run, the shortcut prompts for your Tesla login credentials so it can create the access token for your account. **Your password is not saved at any point and is only used to create the token with Tesla’s API**. The shortcut then gets the ID of your Tesla. If you have more than one Tesla associated with your account, the Tesla Car Select shortcut displays a list to select from.
 
 ### Setting up the scripts
 
