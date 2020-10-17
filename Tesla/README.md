@@ -17,8 +17,9 @@ The following shortcuts for the Shortcuts iOS app are used to generate an access
 - [Scriptable Widgets for Tesla](https://www.icloud.com/shortcuts/37b6bfd5d6b94cf2b7e1e0e938ff9c89)
 - [Tesla Settings](https://www.icloud.com/shortcuts/71a2986e51e8455c8a6266c053c80174)
 - [Tesla Car Select](https://www.icloud.com/shortcuts/f257a5e6d75f456b91af850014e7f2c6)
+- [Tesla Wake Car](https://www.icloud.com/shortcuts/beac8bb0f9614ada913cd2c29bbbf615)
 
-All three shortcuts must be installed but you only need to run the **Scriptable Widgets for Tesla** shortcut (the other two are run within the shortcut). I created these shortcuts as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
+All these shortcuts must be installed but you only need to run the **Scriptable Widgets for Tesla** shortcut (the others are run within the shortcut). I created these shortcuts as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
 
 On its first run, the shortcut prompts for your Tesla login credentials so it can create the access token for your account. **Your password is not saved at any point and is only used to create the token with Tesla’s API**. The shortcut then gets the ID of your Tesla. If you have more than one Tesla associated with your account, the Tesla Car Select shortcut displays a list to select from.
 
