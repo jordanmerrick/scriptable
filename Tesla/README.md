@@ -6,22 +6,19 @@ A set of four scripts to use as widgets that provide at-a-glance information abo
 
 ## Setup and usage
 
-These scripts use Tesla’s (unofficial) API to get information about your car. An *access token* is required for authentication when making these API requests, along with a specific car’s ID. The token is initially generated using your Tesla login credentials. 
+These scripts use Tesla’s (unofficial) API to get information about your car. An access token is required for authentication when making these API requests.
 
-Scriptable updates widgets automatically in the background. The frequency of updates is handled by iOS and there's no control over when this occurs. Every time a widget updates it has to wake the car from sleep. While this won't significantly impact the battery, keep this in mind if you have concerns about [vampire drain](https://tesla-info.com/blog/vampire-battery-drain.php).
+You must install the [Auth app for Tesla](https://apps.apple.com/us/app/auth-app-for-tesla/id1552058613) iOS app to generate this token. This app handles authentication using your Tesla credentials and provides it to these shortcuts. Your credentials are not stored anywhere. This access token does expire and the app will handle updating it. However, you will need to update the access token in your widgets when this happens (usually 45 days).
 
 ### Getting an access token and car ID
 
 The following shortcuts for the Shortcuts iOS app are used to generate an access token using your login credentials and to get the ID of your Tesla.
 
-- [Scriptable Widgets for Tesla](https://www.icloud.com/shortcuts/37b6bfd5d6b94cf2b7e1e0e938ff9c89)
-- [Tesla Settings](https://www.icloud.com/shortcuts/71a2986e51e8455c8a6266c053c80174)
-- [Tesla Car Select](https://www.icloud.com/shortcuts/f257a5e6d75f456b91af850014e7f2c6)
-- [Tesla Wake Car](https://www.icloud.com/shortcuts/beac8bb0f9614ada913cd2c29bbbf615)
+- [Scriptable Widgets for Tesla](https://www.icloud.com/shortcuts/fa7ae4aba4e145a8a23b2defef838c2d)
+- [Tesla Car Select](https://www.icloud.com/shortcuts/49c91321c3374dbd9027730ea2442264)
+- [Tesla Wake Car](https://www.icloud.com/shortcuts/7cf7713329f64a93a4f61ee93d06990c)
 
-All these shortcuts must be installed but you only need to run the **Scriptable Widgets for Tesla** shortcut (the others are run within the shortcut). I created these shortcuts as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla.
-
-On its first run, the shortcut prompts for your Tesla login credentials so it can create the access token for your account. **Your password is not saved at any point and is only used to create the token with Tesla’s API**. The shortcut then gets the ID of your Tesla. If you have more than one Tesla associated with your account, the Tesla Car Select shortcut displays a list to select from.
+All these shortcuts must be installed but you only need to run the **Scriptable Widgets for Tesla** shortcut (the others are run within the shortcut). I created these shortcuts as part of my [Shortcuts for Tesla](https://jordanmerrick.com/shortcuts/shortcuts-for-tesla/) collection: a set of shortcuts to control and get information about your Tesla. If you have more than one Tesla associated with your account, the Tesla Car Select shortcut displays a list to select from.
 
 ### Setting up the scripts
 
@@ -31,7 +28,6 @@ The shortcut formats the token and car ID as variables and copies them to the cl
 const accessToken = 'token123'
 const carId = '123id'
 ```
-
 Paste this into each script so it can retrieve information about your Tesla.
 
 Each script gets specific information about your Tesla from Tesla's API and creates a widget for you to use on the Home screen. You can also add these scripts to Siri and display them when making a Siri request.
